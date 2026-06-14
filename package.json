@@ -1,0 +1,19 @@
+{
+  "name": "retryx",
+  "version": "1.0.0",
+  "description": "Zero-dep retry with exponential backoff, jitter strategies, and retry predicates",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": ["retry", "backoff", "exponential", "jitter", "timeout", "abort", "zero-dependency"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/retryx"
+  }
+}
