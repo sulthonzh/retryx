@@ -1,0 +1,39 @@
+# .gitignore Template for Public npm Package Repos
+# Copy to repo root as .gitignore
+
+# === Dependencies ===
+node_modules/
+
+# === Compiled output (built in CI, never committed) ===
+dist/
+build/
+*.tsbuildinfo
+
+# === Tool caches ===
+.turbo/
+.vite/
+.cache/
+.parcel-cache/
+
+# === Environment ===
+.env
+.env.*
+!.env.example
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Test / Coverage ===
+coverage/
+.nyc_output/
+
+# === Build artifacts ===
+*.tgz
