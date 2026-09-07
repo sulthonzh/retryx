@@ -33,7 +33,7 @@ jobs:
         run: npm test
 
       - name: Create Release Pull Request
-        uses: changesets/action@v2.1.1
+        uses: changesets/action@v2.1.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
